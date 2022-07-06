@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
+import 'dart:io';
 import 'package:intl/intl.dart';
 
 class NewTransaction extends StatefulWidget {
@@ -34,8 +36,6 @@ class _NewTransactionState extends State<NewTransaction> {
         });
       },
     );
-
-    print('...');
   }
 
   void _submitData() {
